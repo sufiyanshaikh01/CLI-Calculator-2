@@ -3,7 +3,7 @@
 Cobra is a Powerful libaray in Go used for buliding modern CLI application. it helps pares arguments, handle subcommands,flags,and genrate helo menus auutomatically.
 
 # Project Structure
-cobra-calculator/
+cobra-calculator/<br>
 |-- go.mod
 |-- main.go
 |__ cmd/
