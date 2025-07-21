@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var subcmd = &cobra.Command{
+var subCmd = &cobra.Command{
 	Use:   "sub [num1] [num2]",
 	Short: "Subtrack two Number",
 	Args:  cobra.ExactArgs(2),
@@ -18,6 +18,6 @@ var subcmd = &cobra.Command{
 	},
 }
 
-func init() {
-	rootCmd.AddCommand(subcmd)
+func SubCmd() *cobra.Command {
+	return subCmd
 }
